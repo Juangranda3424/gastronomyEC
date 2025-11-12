@@ -1,0 +1,124 @@
+body{
+    background-image: url(../assets/background.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin: 0;
+    padding: 0;
+    font-family: 'Amatic SC';
+}
+
+.title-sticky{
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
+
+.container-page{
+  background-color: white;
+  align-items: center;
+  width: 100%;
+}
+
+.img-right{
+    transform: rotate(5deg);
+}
+
+.img-left{
+    transform: rotate(-4deg);
+}
+
+.img-left:hover, .img-right:hover{
+    transform: scale(1.05);
+    transition: transform 0.3s ease;
+}
+
+.font-paragraph {
+  width: 100%;
+  font-size: 4rem;
+  text-align: center !important;
+
+}
+
+.font-title {
+  width: 100%;
+  font-size: 4rem;
+  font-family: 'Pink Chicken' !important;
+  text-align: center !important;
+
+}
+
+.container-frame-img{
+    display: flex;
+}
+
+.container-frame-title{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+.container-frame-paragraph{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center !important;
+}
+
+.margin-left{
+  margin-left: -3rem;
+}
+
+
+@media (max-width: 768px) {
+
+  body{
+    background-attachment: fixed !important;
+  }
+
+  .font-paragraph {
+    font-size: 100% !important;
+  }
+
+  .font-title {
+    font-size: 100% !important;
+  }
+
+  .title-container h1{
+    font-size: 3rem !important;
+  }
+
+  .p-button{
+    font-size: 1.7rem !important;
+    padding: 0.5rem !important; 
+    border-radius: 0.5rem;
+  }
+
+  .container-parish-ru{
+    padding: 0.8rem !important;
+    margin: 0rem !important;
+  }
+
+  .container-img{
+    padding: 0rem !important;
+    margin-bottom: 0rem !important;
+  }
+
+
+}
+
+@media (min-width: 1080px) {
+  .p-button-icon {
+    font-size: 4rem !important; /* tamaño del ícono */
+  }
+  
+}
+
+@font-face {
+  font-family: 'Amatic SC';
+  src: url(/src/fonts/AmaticSC-Bold.ttf);
+}
+
+@font-face {
+  font-family: 'Pink Chicken';
+  src: url(/src/fonts/PinkChicken-Regular.ttf);
+}

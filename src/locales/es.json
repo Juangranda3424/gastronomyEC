@@ -1,0 +1,138 @@
+{
+    "review":{
+        "title": "RESEÑA HISTÓRICA",
+        "paragraph1": "El cantón Rumiñahui, originalmente formaba parte del Distrito Metropolitano de Quito, siendo considerado como una parroquia.",
+        "paragraph2": "Sin embargo, el 31 de mayo del año 1938, el general Alberto Enríquez Gallo elevó a la parroquia de Sangolquí a un cantón autónomo.",
+        "paragraph3": "Tomando así el nombre de un héroe defensor de la patria, del indígena Rumiñahui. Donde representó el símbolo de coraje para todos los ecuatorianos.",
+        "paragraph4": "Grupo de personas se llegó a integrar a una junta cívica, en donde se impulsó la creación del Cantón Rumiñahui. De esta manera, tanto hombres como mujeres de Sangolquí y sus alrededores lograron alcanzar, hace 87 años, la cantonización de Rumiñahui"
+    },
+    "meaning": {
+      "title": "SIGNIFICADO DE RUMIÑAHUI",
+      "elements": {
+        "title1": "RUMI",
+        "title2": "ÑAHUI",
+        "title3": "RUMIÑAHUI",
+        "rumi": "Piedra",
+        "ñahui": "Ojo o cara",
+        "rumiñahui": "Cara de piedra, una figura emblemática con hechos históricos."
+      },
+      "languagetitle": "LENGUAJE",
+      "language": "Quechua"
+    },
+    "monuments": {
+      "title": "PRINCIPALES MONUMENTOS",
+      "monuments1": "EL COLIBRI",
+      "paragraph1": "Viste su cuerpo con tonos multicolores el verde que refleja la constante renovación de la madre naturaleza, el color negro que retrata a la tierra, la solemnidad del sol que se refleja en el amarillo, anaranjado y el oro, el grana símbolo de lucha, esfuerzo, guerra y sangre y con el azul oscuro, energía y salud.",
+      "monuments2": "EL CHOCLO",
+      "paragraph2": "Endara Crown supo plasmar en este monumento el dorado manjar de los dioses utilizando la técnica NAIF, recordando en esta obra la fertilidad del Valle de los Chillos",
+      "monuments3": "MUNUMENTO A LA SED",
+      "paragraph3": "La obra está representada por un campesino que al momento de su descanso, busca el agua y parece no encontrarla, por el hombre sentado, tomando agua del pilche, casi lamiéndose.",
+      "monuments4": "MONUMENTO AL TIEMPO",
+      "paragraph4": "Un monolito central que funciona como un reloj solar y homenajea las tradiciones ancestrales de la región, relacionadas con los ciclos agrícolas. Representa los solsticios y equinoccios, y es un atractivo simbólico del parque."   
+    },    
+    "parishes": {
+      "title": "PARROQUIAS DEL CATÓN RUMIÑAHUI",
+      "urban": {
+        "title":"PARROQUIAS URBANAS",
+        "parishesurban": ["Parroquia Cotogchoa", "Parroquia Rumibamba"],
+        "parish1": {
+          "title": "Parroquia Cotogchoa",
+          "data":{
+            "title1": "Ubicación",
+            "ubi": "La parroquia de Cotogchoa está ubicada al sur occidente del cantón Rumiñahui.",
+            "title2": "Límites",
+            "limits": {
+              "title1": "Norte",
+              "data1": "Parroquia Sangolquí",
+              "title2": "Sur",
+              "data2": "Parroquias Amaguaña y Tambillo del Cantón Mejía",
+              "title3": "Este",
+              "data3": "Parroquia Rumipamba ",
+              "title4": "Oeste",
+              "data4": "Parroquia Amaguaña",
+              "title5": "Actividades Productivas",
+              "data5": "Agricultura y ganadería. Sus principales productos son el maíz y el trigo."
+            }
+          }
+        },
+        "parish2": {
+          "title": "Parroquia Rumibamba",
+          "data":{
+            "title1": "Ubicación",
+            "ubi": "La parroquia rural de Rumipamba está ubicada en el cantón Rumiñahui, provincia de Pichincha a 15 kilómetros de la ciudad de Sangolquí. ",
+            "title2": "Límites",
+            "limits": {
+              "title1": "Norte",
+              "data1": "Río Eni y el Río Conambo",
+              "title2": "Sur",
+              "data2": "Río Jivino Verde y el Río Jivino Rojo",
+              "title3": "Este",
+              "data3": "Río Jivino Verde",
+              "title4": "Oeste",
+              "data4": "Falta este..",
+              "title5": "Actividades Productivas",
+              "data5": "Agricultura y ganadería. Sus principales productos son la cebolla y la zanahoria."
+            }
+          }
+        }
+      },
+      "rural": {
+        "title":"PARROQUIAS RURALES",
+        "parishesrural": ["Parroquia Sangolquí", "Parroquia San Rafael ", "Parroquia San Pedro de Taboada"],
+        "parish1": {
+          "title": "Sangolquí",
+          "data":{
+            "title1": "Ubicación",
+            "ubi": "Está ubicada en el cantón Rumiñahui, provincia de Pichincha, en el Valle de los Chillos, a unos 34 km al sureste de Quito.",
+            "title2": "Límites",
+            "limits": {
+              "title1": "Norte",
+              "data1": "Distrito Metropolitano de Quito",
+              "title2": "Sur",
+              "data2": "Cantón Mejía ",
+              "title3": "Este",
+              "data3": "Distrito Metropolitano de Quito",
+              "title4": "Oeste",
+              "data4": "Distrito Metropolitano de Quito"
+            }
+          }
+        },
+        "parish2": {
+          "title": "San Rafael",
+            "data":{
+            "title1": "Ubicación",
+            "ubi": "Está ubicado en el extremo norte del cantón Rumiñahui, en la provincia de Pichincha, Ecuador.",
+            "title2": "Límites",
+            "limits": {
+              "title1": "Norte",
+              "data1": "Distrito Metropolitano de Quito (urbanización La Armenia)",
+              "title2": "Sur",
+              "data2": "Parroquias de San Pedro de Taboada y Sangolquí",
+              "title3": "Este",
+              "data3": "Distrito Metropolitano de Quito",
+              "title4": "Oeste",
+              "data4": "Distrito Metropolitano de Quito"
+            }
+          }          
+        },
+        "parish3": {
+          "title": "San Pedro de Taboada",
+          "data":{
+            "title1": "Ubicación",
+            "ubi": "Se encuentra en el cantón Rumiñahui, en el Valle de los Chillos, provincia de Pichincha, al sur de Quito.",
+            "title2": "Límites",
+            "limits": {
+              "title1": "Norte",
+              "data1": "Distrito Metropolitano de Quito (urbanización La Armenia)",
+              "title2": "Sur",
+              "data2": "Cantón Mejía ",
+              "title3": "Este",
+              "data3": "Distrito Metropolitano de Quito",
+              "title4": "Oeste",
+              "data4": "Distrito Metropolitano de Quito"
+            }
+          }          
+        }
+      }
+    }
+}
