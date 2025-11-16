@@ -1,11 +1,12 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '@/pages/Home.vue'
 const routes = [
-    // {
-    //     path: '/:pathMatch(.*)*',
-    //     name: 'notfound',
-    //     component: () => import('@/pages/NoFoundPage.vue')
-    // },
+    {
+        path: '/:pathMatch(.*)*',
+        name: 'notfound',
+        redirect: "/home"
+
+    },
     {
       path: "/",
       redirect: "/home" // Redirige la ruta raíz a /home
@@ -33,54 +34,91 @@ const routes = [
         name: 'review',
         component: () => import('@/pages/Review.vue'),
     },
-        {
+    {
         path: '/parishes/rural',
         name: 'rural',
-        component: () => import('@/pages/Rural.vue'),
+        component: null,
+        children: [
+            {
+                path: '',
+                name: 'rural-home',
+                component: () => import('@/pages/Rural.vue'),
+            },
+            {
+                path: 'cotogchoa',
+                name: 'cotogchoa',
+                component: () => import('@/pages/ParishUR/Cotogchoa.vue'),
+            },
+            {
+                path: 'rumibamba',
+                name: 'rumibamba',
+                component: () => import('@/pages/ParishUR/Rumibamba.vue'),
+            },
+            {
+                path: 'meals-cotogchoa',
+                name: 'meals-cotogchoa',
+                component: () => import('@/pages/TraditionalMeals/MealsCotogchoa.vue'),
+            },    
+            {
+                path: 'meals-rumibamba',
+                name: 'meals-rumibamba',
+                component: () => import('@/pages/TraditionalMeals/MealsRumibamba.vue'),
+            },      
+        ]
     },
     {
         path: '/parishes/urban',
         name: 'urban',
-        component: () => import('@/pages/Urban.vue'),
+        component: null,
+        children: [
+            {
+                path: '',
+                name: 'urban-home',
+                component: () => import('@/pages/Urban.vue'),
+            },            
+            {
+                path: 'sangolqui',
+                name: 'sangolqui',
+                component: () => import('@/pages/ParishUR/Sangolqui.vue'),
+            },
+            {
+                path: 'sanrafael',
+                name: 'sanrafael',
+                component: () => import('@/pages/ParishUR/SanRafael.vue'),
+            },
+            {
+                path: 'sanpedrotaboada',
+                name: 'sanpedrotaboada',
+                component: () => import('@/pages/ParishUR/SanPedroTaboada.vue'),
+            },
+            {
+                path: 'meals-sangolqui',
+                name: 'meals-sangolqui',
+                component: () => import('@/pages/TraditionalMeals/MealsSangolqui.vue'),
+            },    
+            {
+                path: 'meals-sanrafael',
+                name: 'meals-sanrafael',
+                component: () => import('@/pages/TraditionalMeals/MealsSanRafael.vue'),
+            },    
+            {
+                path: 'meals-sanpedrotaboada',
+                name: 'meals-sanpedrotaboada',
+                component: () => import('@/pages/TraditionalMeals/MealsSanPedroTaboada.vue'),
+            },    
+        ]
     },
+    {
+        path: '/puzzle',
+        name: 'puzzle',
+        component: () => import('@/pages/Puzzle/Puzzle.vue'),
+    },  
 ]
 
 const router = createRouter({
     history: createWebHistory('/gastronomiaEC'),
     routes
 });
-
-// router.beforeEach(async (to, from, next) => {
-//   try {
-//     const user = await getInfoUserFacade() // valida cookie en backend
-//     if (user) {
-//       // si está logueado
-//       if (to.name === 'login') {
-//         next({ name: 'store' })
-//       } else {
-//         // validación de roles
-//         if (to.meta?.roles && !to.meta.roles.includes(user.data.name_rol)) {
-//           // si no tiene permiso -> redirigir a home
-//           return next({ name: 'store' })
-//         }
-//         next()
-//       }
-//     } else {
-//       // no autenticado
-//       if (to.name !== 'login') {
-//         next({ name: 'login' })
-//       } else {
-//         next()
-//       }
-//     }
-//   } catch (err) {
-//     if (to.name !== 'login') {
-//       next({ name: 'login' })
-//     } else {
-//       next()
-//     }
-//   }
-// })
 
 
 export default router;

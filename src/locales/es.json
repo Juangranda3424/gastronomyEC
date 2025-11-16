@@ -1,138 +1,144 @@
-{
-    "review":{
-        "title": "RESEÑA HISTÓRICA",
-        "paragraph1": "El cantón Rumiñahui, originalmente formaba parte del Distrito Metropolitano de Quito, siendo considerado como una parroquia.",
-        "paragraph2": "Sin embargo, el 31 de mayo del año 1938, el general Alberto Enríquez Gallo elevó a la parroquia de Sangolquí a un cantón autónomo.",
-        "paragraph3": "Tomando así el nombre de un héroe defensor de la patria, del indígena Rumiñahui. Donde representó el símbolo de coraje para todos los ecuatorianos.",
-        "paragraph4": "Grupo de personas se llegó a integrar a una junta cívica, en donde se impulsó la creación del Cantón Rumiñahui. De esta manera, tanto hombres como mujeres de Sangolquí y sus alrededores lograron alcanzar, hace 87 años, la cantonización de Rumiñahui"
+{  
+  "button":{
+    "label1": "VER UBICACIÓN",
+    "label2": "PULSA AQUI"
+  },
+  "label": {
+    "label1": "COMIDAS TRADICIONALES",
+    "label2": "Juego del Chef",
+    "label3": "¡Arma el rompecabezas para descubrir dónde puedes disfrutar de este delicioso plato tradicional!", 
+    "label4": "¡Felicidades! Lograste armar el rompecabezas por completo"
+  },
+  "review": {
+    "title": "RESEÑA HISTÓRICA",
+    "paragraph1": "El cantón Rumiñahui originalmente formaba parte del Distrito Metropolitano de Quito, siendo considerado una parroquia.",
+    "paragraph2": "Sin embargo, el 31 de mayo de 1938, el general Alberto Enríquez Gallo elevó a la parroquia de Sangolquí a la categoría de cantón autónomo.",
+    "paragraph3": "Su nombre honra al héroe indígena Rumiñahui, símbolo de coraje para todos los ecuatorianos.",
+    "paragraph4": "Un grupo de ciudadanos conformó una junta cívica que impulsó la creación del cantón Rumiñahui. Gracias a su esfuerzo, tanto hombres como mujeres de Sangolquí y sus alrededores lograron alcanzar, hace 87 años, la cantonización."
+  },
+
+  "meaning": {
+    "title": "SIGNIFICADO DE RUMIÑAHUI",
+    "elements": {
+      "title1": "RUMI",
+      "title2": "ÑAHUI",
+      "title3": "RUMIÑAHUI",
+      "rumi": "Piedra",
+      "ñahui": "Ojo o cara",
+      "rumiñahui": "Cara de piedra, una figura emblemática por sus hechos históricos."
     },
-    "meaning": {
-      "title": "SIGNIFICADO DE RUMIÑAHUI",
-      "elements": {
-        "title1": "RUMI",
-        "title2": "ÑAHUI",
-        "title3": "RUMIÑAHUI",
-        "rumi": "Piedra",
-        "ñahui": "Ojo o cara",
-        "rumiñahui": "Cara de piedra, una figura emblemática con hechos históricos."
-      },
-      "languagetitle": "LENGUAJE",
-      "language": "Quechua"
-    },
-    "monuments": {
-      "title": "PRINCIPALES MONUMENTOS",
-      "monuments1": "EL COLIBRI",
-      "paragraph1": "Viste su cuerpo con tonos multicolores el verde que refleja la constante renovación de la madre naturaleza, el color negro que retrata a la tierra, la solemnidad del sol que se refleja en el amarillo, anaranjado y el oro, el grana símbolo de lucha, esfuerzo, guerra y sangre y con el azul oscuro, energía y salud.",
-      "monuments2": "EL CHOCLO",
-      "paragraph2": "Endara Crown supo plasmar en este monumento el dorado manjar de los dioses utilizando la técnica NAIF, recordando en esta obra la fertilidad del Valle de los Chillos",
-      "monuments3": "MUNUMENTO A LA SED",
-      "paragraph3": "La obra está representada por un campesino que al momento de su descanso, busca el agua y parece no encontrarla, por el hombre sentado, tomando agua del pilche, casi lamiéndose.",
-      "monuments4": "MONUMENTO AL TIEMPO",
-      "paragraph4": "Un monolito central que funciona como un reloj solar y homenajea las tradiciones ancestrales de la región, relacionadas con los ciclos agrícolas. Representa los solsticios y equinoccios, y es un atractivo simbólico del parque."   
-    },    
-    "parishes": {
-      "title": "PARROQUIAS DEL CATÓN RUMIÑAHUI",
-      "urban": {
-        "title":"PARROQUIAS URBANAS",
-        "parishesurban": ["Parroquia Cotogchoa", "Parroquia Rumibamba"],
-        "parish1": {
-          "title": "Parroquia Cotogchoa",
-          "data":{
-            "title1": "Ubicación",
-            "ubi": "La parroquia de Cotogchoa está ubicada al sur occidente del cantón Rumiñahui.",
-            "title2": "Límites",
-            "limits": {
-              "title1": "Norte",
-              "data1": "Parroquia Sangolquí",
-              "title2": "Sur",
-              "data2": "Parroquias Amaguaña y Tambillo del Cantón Mejía",
-              "title3": "Este",
-              "data3": "Parroquia Rumipamba ",
-              "title4": "Oeste",
-              "data4": "Parroquia Amaguaña",
-              "title5": "Actividades Productivas",
-              "data5": "Agricultura y ganadería. Sus principales productos son el maíz y el trigo."
-            }
-          }
-        },
-        "parish2": {
-          "title": "Parroquia Rumibamba",
-          "data":{
-            "title1": "Ubicación",
-            "ubi": "La parroquia rural de Rumipamba está ubicada en el cantón Rumiñahui, provincia de Pichincha a 15 kilómetros de la ciudad de Sangolquí. ",
-            "title2": "Límites",
-            "limits": {
-              "title1": "Norte",
-              "data1": "Río Eni y el Río Conambo",
-              "title2": "Sur",
-              "data2": "Río Jivino Verde y el Río Jivino Rojo",
-              "title3": "Este",
-              "data3": "Río Jivino Verde",
-              "title4": "Oeste",
-              "data4": "Falta este..",
-              "title5": "Actividades Productivas",
-              "data5": "Agricultura y ganadería. Sus principales productos son la cebolla y la zanahoria."
-            }
-          }
+    "languagetitle": "LENGUAJE",
+    "language": "Quechua"
+  },
+
+  "monuments": {
+    "title": "PRINCIPALES MONUMENTOS",
+    "monuments1": "EL COLIBRÍ",
+    "paragraph1": "Viste su cuerpo con tonos multicolores: el verde refleja la renovación constante de la naturaleza; el negro representa la tierra; el amarillo, anaranjado y dorado simbolizan la energía del sol; el grana evoca lucha, esfuerzo y sangre; y el azul oscuro expresa energía y salud.",
+    "monuments2": "EL CHOCLO",
+    "paragraph2": "Endara Crown plasmó en este monumento el dorado manjar de los dioses mediante la técnica naif, recordando la fertilidad del Valle de los Chillos.",
+    "monuments3": "MONUMENTO A LA SED",
+    "paragraph3": "La obra representa a un campesino que, durante su descanso, busca agua y parece no encontrarla, reflejando esfuerzo y necesidad.",
+    "monuments4": "MONUMENTO AL TIEMPO",
+    "paragraph4": "Un monolito central que funciona como reloj solar y homenajea las tradiciones ancestrales relacionadas con los ciclos agrícolas, representando solsticios y equinoccios."
+  },
+
+  "parishes": {
+    "title": "PARROQUIAS DEL CANTÓN RUMIÑAHUI",
+
+    "rural": {
+      "title": "PARROQUIAS RURALES",
+      "parish1": {
+        "title": "Parroquia Cotogchoa",
+        "data": {
+          "title1": "UBICACIÓN",
+          "ubi": "La parroquia de Cotogchoa está ubicada al suroccidente del cantón Rumiñahui.",
+          "title2": "LÍMITES",
+          "limits": [
+            { "title": "Norte", "data": "Parroquia Sangolquí" },
+            { "title": "Sur", "data": "Parroquias Amaguaña y Tambillo del cantón Mejía" },
+            { "title": "Este", "data": "Parroquia Rumipamba" },
+            { "title": "Oeste", "data": "Parroquia Amaguaña" }
+          ],
+          "title3": "ACTIVIDADES PRODUCTIVAS",
+          "data3": "Agricultura y ganadería; sus principales productos son el maíz y el trigo."
         }
       },
-      "rural": {
-        "title":"PARROQUIAS RURALES",
-        "parishesrural": ["Parroquia Sangolquí", "Parroquia San Rafael ", "Parroquia San Pedro de Taboada"],
-        "parish1": {
-          "title": "Sangolquí",
-          "data":{
-            "title1": "Ubicación",
-            "ubi": "Está ubicada en el cantón Rumiñahui, provincia de Pichincha, en el Valle de los Chillos, a unos 34 km al sureste de Quito.",
-            "title2": "Límites",
-            "limits": {
-              "title1": "Norte",
-              "data1": "Distrito Metropolitano de Quito",
-              "title2": "Sur",
-              "data2": "Cantón Mejía ",
-              "title3": "Este",
-              "data3": "Distrito Metropolitano de Quito",
-              "title4": "Oeste",
-              "data4": "Distrito Metropolitano de Quito"
-            }
-          }
+
+      "parish2": {
+        "title": "Parroquia Rumipamba",
+        "data": {
+          "title1": "UBICACIÓN",
+          "ubi": "La parroquia rural de Rumipamba está ubicada en el cantón Rumiñahui, provincia de Pichincha, a 15 kilómetros de la ciudad de Sangolquí.",
+          "title2": "LÍMITES",
+          "limits": [
+            { "title": "Norte", "data": "Río Eni y Río Conambo" },
+            { "title": "Sur", "data": "Río Jivino Verde y Río Jivino Rojo" },
+            { "title": "Este", "data": "Río Jivino Verde" },
+            { "title": "Oeste", "data": "Falta completar..." }
+          ],
+          "title3": "ACTIVIDADES PRODUCTIVAS",
+          "data3": "Agricultura y ganadería; sus principales productos son la cebolla y la zanahoria."
+        }
+      }
+    },
+
+    "urban": {
+      "title": "PARROQUIAS URBANAS",
+
+      "parish1": {
+        "title": "Sangolquí",
+        "titlemeals": "Comidas tradicionales",
+        "data": {
+          "title1": "UBICACIÓN",
+          "ubi": "Está ubicada en el cantón Rumiñahui, provincia de Pichincha, en el Valle de los Chillos, a unos 34 km al sureste de Quito.",
+          "title2": "LÍMITES",
+          "limits": [
+            { "title": "Norte", "data": "Distrito Metropolitano de Quito" },
+            { "title": "Sur", "data": "Cantón Mejía" },
+            { "title": "Este", "data": "Distrito Metropolitano de Quito" },
+            { "title": "Oeste", "data": "Distrito Metropolitano de Quito" }
+          ]
         },
-        "parish2": {
-          "title": "San Rafael",
-            "data":{
-            "title1": "Ubicación",
-            "ubi": "Está ubicado en el extremo norte del cantón Rumiñahui, en la provincia de Pichincha, Ecuador.",
-            "title2": "Límites",
-            "limits": {
-              "title1": "Norte",
-              "data1": "Distrito Metropolitano de Quito (urbanización La Armenia)",
-              "title2": "Sur",
-              "data2": "Parroquias de San Pedro de Taboada y Sangolquí",
-              "title3": "Este",
-              "data3": "Distrito Metropolitano de Quito",
-              "title4": "Oeste",
-              "data4": "Distrito Metropolitano de Quito"
-            }
-          }          
-        },
-        "parish3": {
-          "title": "San Pedro de Taboada",
-          "data":{
-            "title1": "Ubicación",
-            "ubi": "Se encuentra en el cantón Rumiñahui, en el Valle de los Chillos, provincia de Pichincha, al sur de Quito.",
-            "title2": "Límites",
-            "limits": {
-              "title1": "Norte",
-              "data1": "Distrito Metropolitano de Quito (urbanización La Armenia)",
-              "title2": "Sur",
-              "data2": "Cantón Mejía ",
-              "title3": "Este",
-              "data3": "Distrito Metropolitano de Quito",
-              "title4": "Oeste",
-              "data4": "Distrito Metropolitano de Quito"
-            }
-          }          
+        "meals": [
+          { "name": "LOCRO DE PAPA", "description": "Sopa tradicional andina preparada con papas, queso y aguacate." },
+          { "name": "YAHUARLOCRO", "description": "Sopa elaborada con vísceras de borrego, cebolla y especias." },
+          { "name": "CUY ASADO", "description": "Cuy preparado al horno o carbón, acompañado de papas y ensalada." },
+          { "name": "FRITADA", "description": "Carne de cerdo cocinada en su propia grasa, servida con mote y tostado." },
+          { "name": "HORNADO", "description": "Cerdo horneado, tradicional en fiestas y reuniones comunitarias." },
+          { "name": "CALDO DE GALLINA CRIOLLA", "description": "Sopa preparada con gallina de campo y vegetales." },
+          { "name": "MOTE CON CHICHARRÓN", "description": "Plato típico de mote acompañado de chicharrón crocante." },
+          { "name": "EMPANADAS DE VIENTO", "description": "Empanadas fritas rellenas de queso, espolvoreadas con azúcar." }
+        ]
+      },
+      "parish2": {
+        "title": "San Rafael",
+        "data": {
+          "title1": "UBICACIÓN",
+          "ubi": "Está ubicada en el extremo norte del cantón Rumiñahui, en la provincia de Pichincha.",
+          "title2": "LÍMITES",
+          "limits": [
+            { "title": "Norte", "data": "Distrito Metropolitano de Quito (urbanización La Armenia)" },
+            { "title": "Sur", "data": "Parroquias San Pedro de Taboada y Sangolquí" },
+            { "title": "Este", "data": "Distrito Metropolitano de Quito" },
+            { "title": "Oeste", "data": "Distrito Metropolitano de Quito" }
+          ]
+        }
+      },
+      "parish3": {
+        "title": "San Pedro de Taboada",
+        "data": {
+          "title1": "UBICACIÓN",
+          "ubi": "Está ubicada en el cantón Rumiñahui, en el Valle de los Chillos, provincia de Pichincha, al sur de Quito.",
+          "title2": "LÍMITES",
+          "limits": [
+            { "title": "Norte", "data": "Distrito Metropolitano de Quito (urbanización La Armenia)" },
+            { "title": "Sur", "data": "Cantón Mejía" },
+            { "title": "Este", "data": "Distrito Metropolitano de Quito" },
+            { "title": "Oeste", "data": "Distrito Metropolitano de Quito" }
+          ]
         }
       }
     }
+  }
 }

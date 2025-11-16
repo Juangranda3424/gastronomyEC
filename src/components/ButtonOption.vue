@@ -6,7 +6,7 @@
 
 import Button from 'primevue/button';
 
-defineProps({
+const props = defineProps({
     label: {
         type: String,
         required: true

@@ -5,6 +5,7 @@
                     :onPressRight="items[0].command" 
                     :onPressLeft="items[1].command"
                     :displayMode="'block'"
+                    class="margin-context"
                 />
         </template>
     </ContainerPage>
@@ -37,5 +38,11 @@ const items = [
   background-color: transparent !important;
   
 }
+
+.margin-context{
+    margin-top: 3rem;
+
+}
+
 
 </style>

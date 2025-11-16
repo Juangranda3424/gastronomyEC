@@ -1,136 +1,145 @@
 {
-  "review": {
-    "title": "ÑAWPAQ RIKSINA",
-    "paragraph1": "Rumiñahui kantun Killkaypi, ñawpa pacha Quitu Llaqta Hatun Tantanpi parte shina karan, parrokiamanta riksishka.",
-    "paragraph2": "Chaymantata, 1938 wata mayo killap 31 punchapi, General Alberto Enríquez Gallo Sangolquí parrokiata sapa kantunman churarkan.",
-    "paragraph3": "Chaymanta Rumiñahui runapa shutiwan, ñukanchik llaktap sinchi awkillata yuyarin, ñukanchik runakunapa sinchikuyta rikuchin.",
-    "paragraph4": "Runa llaktakuna tantarik shuk cívico huñunakuwan Rumiñahui kantunpa kamachiyta pusharirkan. Chayrayku warmikuna chaymanta karikuna Sangolquí llaktamanta y itsinakunamanta 87 watakunapi Rumiñahui kantun tukushkarka."
+  "button": {
+    "label1": "SHUYUPI RIKUY",
+    "label2": "KAYPI KLIKPI"
   },
+  "label": {
+    "label1": "MIKUNA TRADISIONAL",
+    "label2": "Mikuy Rikcharina",
+    "label3": "Tukuy shukllachiyta tupachishpa rikuy maypi kay mishki tradisional mikuyta ashpangapa.",
+    "label4": "Pachi! Rurankimi tukuy rumpakipash"
+  },
+  "review": {
+    "title": "WILLAY SUGLLAPI",
+    "paragraph1": "Rumiñahui kantunmi ñawpa watakunapi Quito Hatun Llakta shuk parte tukurka, shuk llakta panin shina yachachirka.",
+    "paragraph2": "1938 watapi, mayo killapi 31 punchapi, General Alberto Enríquez Gallo-mi Sangolquí llaktata kantun shina kallarikurka.",
+    "paragraph3": "Paypa shutin Rumiñahui-mi, runakunapa sinchi kuraka warmi, karikuna llapakunapa llakikuna yuyaypi kawsashka.",
+    "paragraph4": "Shuk runakuna tantanakuyka llakta tantachishka, Rumiñahui kantunta rurankapak. Paykunapa llankaywan, warminakunapa karikunapa yanapaywan, 87 watakunata ñawpa, kunan kamachishka kantun tukurka."
+  },
+
   "meaning": {
-    "title": "Rumiñahui Ñukanchik Rimay",
+    "title": "RUMIÑAHUI SHUTIPAK RIMAY",
     "elements": {
       "title1": "RUMI",
-      "title2": "ÑAHUI",
-      "title3": "RUMIÑAHUI",
-      "rumi": "Rumi — Rumi, piedra",
-      "ñahui": "Ñawi — Ñawi, ñawi o uya (ojo o cara)",
-      "rumiñahui": "Rumiñawi — Rumi uyata rikuchik runa, historiawan sumakta rikushka."
+      "title2": "ÑAWI",
+      "title3": "RUMIÑAWI",
+      "rumi": "Rumi — Rumi (piedra)",
+      "ñahui": "Ñawi — Ñawi o kay (ojo o cara)",
+      "rumiñahui": "Rumi ñawi — Rumita rikuk shina kara; sinchi runa shina yachakushka."
     },
     "languagetitle": "RIMAY",
     "language": "Kichwa"
   },
+
   "monuments": {
-    "title": "HATUN KAWSAYPA RIKUCHIKUNA",
-    "monuments1": "KINTI",
-    "paragraph1": "Kintipa ruranmi achka sacha ñawpak kawsaykunata rikuchin — waylla rikuchin mama allpak kawsaykunata, yana rikuchin allpata, inti rikuchin killu, anaranjadu, killa yurakwan. Puka rikuchin sinchita, makikuna riksina, llakina, warmi wasi. Uchi anka rikuchin kallpa llaktata, allita kawsayta.",
-    "monuments2": "SARA",
-    "paragraph2": "Endara Crown ruranmi kay saranpi ñawi riksina diosta mikuna kanchi, NAIF ruranawan rurashka, llaktakunapa allpata riksichin — Chillos pampa kallpata yuyachin.",
-    "monuments3": "YAKUMANTA RIKUCHIK",
-    "paragraph3": "Kay ruraypi rikuchin runata, llaktapi llamkaqta, llakikunapi yakuta maskak, mana tarinchu — karupi tiyak runa pilchipi yakuta upyakun, shinallatak ñawiwan millana.",
-    "monuments4": "PACHA WATAY RIKUCHIK",
-    "paragraph4": "Shuk hatun rumi suni inti watay riksichikmi kan, ñawpak runakunapa yachayta yupaychashpa, chakramanta ruraykunawan tinkushka. Rikuchin inti kawsaykuna, killa kawsaykuna, parqepi sumakta rikuchik."
+    "title": "HATUN KAWSAY KIRU",
+    "monuments1": "KILLIKI",
+    "paragraph1": "Kuntur killikika achka sacha llimpikunawan killkashka: waylla llimpi sumak pachapi kawsayta rikuchi; yana allpa; killu, anaranjado, kori — Inti punchapi kallpata; puka — llakikuna, llankaykuna, yakukuna; anka ankaw — kallpa, kawsay.",
+    "monuments2": "SARA MUZU (CHOCLO)",
+    "paragraph2": "Endara Crown-mi kay sara muzu hatun kawsay ruranapi naif técnica wan killkachishka, Valle de los Chillospa allpa kallpata yuyachishpa.",
+    "monuments3": "YAKUTA MASKASHPA RUNA",
+    "paragraph3": "Kay ruraymi campesinota rikuchi, asichishpa yaku maskashpa, llankay, llaki, yaku mana tantarishka shina.",
+    "monuments4": "PACHA KAWSAY RURAY (TIEMPO)",
+    "paragraph4": "Shuk hatun rumi monolito, inti watukunata rikuchik, chakra pachapi yachaykunata, solsticio equinocciokunata yuyachishka."
   },
+
   "parishes": {
-    "title": "RUMIÑAHUI KANTONPA LLACTA KUNAPAK",
-    "urban": {
-      "title": "LLACTA RURALKUNA",
-      "parishesurban": ["Cotogchoa Llakta", "Rumibamba Llakta"],
+    "title": "RUMIÑAHUI KANTUNPA LLATAKUNA",
+
+    "rural": {
+      "title": "ALLPA LLATAKUNA",
+
       "parish1": {
-        "title": "Cotogchoa",
+        "title": "Cotogchoa Llakta",
         "data": {
-          "title1": "Kawsay Sitiu (Ubicación)",
-          "ubi": "Cotogchoa llakta kawsan Rumiñahui kantonpa llaktapi, ñawpak wistrapi.",
-          "title2": "Saywas (Límites)",
-          "limits": {
-            "title1": "Chinchaysuyu (Norte)",
-            "data1": "Sangolquí Llakta",
-            "title2": "Kuntisuyu (Sur)",
-            "data2": "Amaguaña chaymi Tambillo llaktakuna Mejía kantonmanta",
-            "title3": "Antisuyu (Este)",
-            "data3": "Rumipamba Llakta",
-            "title4": "Kullasuyu (Oeste)",
-            "data4": "Amaguaña Llakta",
-            "title5": "Ruraykunata (Actividades Productivas)",
-            "data5": "Chakramanta ruray, uywamanta ruray. Suma sara chaymi trigo mikuykuna rurashka."
-          }
+          "title1": "KAWPIKUNA",
+          "ubi": "Cotogchoa llaktami Rumiñahui kantunpa suyu uray kawsapi tiyashka.",
+          "title2": "PATAKUNA",
+          "limits": [
+            { "title": "Chawpi Loma (Norte)", "data": "Sangolquí Llakta" },
+            { "title": "Uray (Sur)", "data": "Amaguaña y Tambillo, Mejía kantunmanta" },
+            { "title": "Alli (Este)", "data": "Rumipamba Llakta" },
+            { "title": "Wasi Loma (Oeste)", "data": "Amaguaña Llakta" }
+          ],
+          "title3": "LLANKAYKUNA",
+          "data3": "Yaku allpapi chakra llankay, uywakuna paskachiy; sara, trigo ashtawan rurashka."
         }
       },
+
       "parish2": {
-        "title": "Rumibamba",
+        "title": "Rumipamba Llakta",
         "data": {
-          "title1": "Kawsay Sitiu (Ubicación)",
-          "ubi": "Rumipamba llakta kawsan Rumiñahui kantonpi, Pichincha markapi, 15 kilometro chaymi Sangolquí llaktamanta.",
-          "title2": "Saywas (Límites)",
-          "limits": {
-            "title1": "Chinchaysuyu (Norte)",
-            "data1": "Eni mayu chaymi Conambo mayu",
-            "title2": "Kuntisuyu (Sur)",
-            "data2": "Jivino Verde mayu chaymi Jivino Rojo mayu",
-            "title3": "Antisuyu (Este)",
-            "data3": "Jivino Verde mayu",
-            "title4": "Kullasuyu (Oeste)",
-            "data4": "Kaypi faltami rikuykunata...",
-            "title5": "Ruraykunata (Actividades Productivas)",
-            "data5": "Chakramanta ruray, uywamanta ruray. Suma cebolla chaymi zanahoria mikuykuna rurashka."
-          }
+          "title1": "KAWPIKUNA",
+          "ubi": "Rumipamba llaktami Rumiñahui kantunpi tiyak, Pichincha suyu, 15 kmma Sangolquí llaktamanta.",
+          "title2": "PATAKUNA",
+          "limits": [
+            { "title": "Chawpi Loma", "data": "Río Eni y Río Conambo" },
+            { "title": "Uray", "data": "Río Jivino Verde y Río Jivino Rojo" },
+            { "title": "Alli", "data": "Río Jivino Verde" },
+            { "title": "Wasi Loma", "data": "Kunanpika faltami..." }
+          ],
+          "title3": "LLANKAYKUNA",
+          "data3": "Chakra llankay, uywa; salku cebolla, zanahoria rurashka."
         }
       }
     },
-    "rural": {
-      "title": "LLACTA URBANKUNA",
-      "parishesrural": ["Sangolquí Llakta", "San Rafael Llakta", "San Pedro de Taboada Llakta"],
+
+    "urban": {
+      "title": "HATUN LLATAKUNA",
+
       "parish1": {
         "title": "Sangolquí",
+        "titlemeals": "Achi Mikunakuna",
         "data": {
-          "title1": "Kawsay Sitiu (Ubicación)",
-          "ubi": "Kawsan Rumiñahui kantonpi, Pichincha markapi, Valle de los Chillos sutipi, 34 kilometro ñawpak Quitomanta.",
-          "title2": "Saywas (Límites)",
-          "limits": {
-            "title1": "Chinchaysuyu (Norte)",
-            "data1": "Quito Hatun Llakta",
-            "title2": "Kuntisuyu (Sur)",
-            "data2": "Mejía Kanton",
-            "title3": "Antisuyu (Este)",
-            "data3": "Quito Hatun Llakta",
-            "title4": "Kullasuyu (Oeste)",
-            "data4": "Quito Hatun Llakta"
-          }
-        }
+          "title1": "KAWPIKUNA",
+          "ubi": "Sangolquí llaktami Rumiñahui kantunpi tiyak, Valle de los Chillos, 34 km Quito llaktamanta.",
+          "title2": "PATAKUNA",
+          "limits": [
+            { "title": "Chawpi Loma", "data": "Quito Hatun Llakta" },
+            { "title": "Uray", "data": "Mejía Kantun" },
+            { "title": "Alli", "data": "Quito Hatun Llakta" },
+            { "title": "Wasi Loma", "data": "Quito Hatun Llakta" }
+          ]
+        },
+        "meals": [
+          { "name": "PAPA LOCRO", "description": "Papa yaku mikuna, quesuwan, paltawan rurashka." },
+          { "name": "YAWAR LOCRO", "description": "Borrego ukuta mikuna, sisa y mishki espéciakunawan." },
+          { "name": "CUY ASADO", "description": "Nina cuy mikuna, papawan, ensaladawan." },
+          { "name": "KARNE FRITADA", "description": "Chancho ukuta miskita rurashka, motewan, tostadowan." },
+          { "name": "HORNADO", "description": "Chancho nina rurashka, raymi kunapi alli mikuna." },
+          { "name": "GALLINA CALDITO", "description": "Kawsay gallina yaku mikuna." },
+          { "name": "MOTE CHICHARRÓN", "description": "Mote mikuna chicharrónwan." },
+          { "name": "EMPANADA WAYRA", "description": "Quesu ukuta empanada, azuwawan mishkichishka." }
+        ]
       },
+
       "parish2": {
         "title": "San Rafael",
         "data": {
-          "title1": "Kawsay Sitiu (Ubicación)",
-          "ubi": "Kawsan Rumiñahui kantonpa ñawpak chawpipimi, Pichincha markapi, Ecuadorpi.",
-          "title2": "Saywas (Límites)",
-          "limits": {
-            "title1": "Chinchaysuyu (Norte)",
-            "data1": "Quito Hatun Llakta (Armenia llaktapi)",
-            "title2": "Kuntisuyu (Sur)",
-            "data2": "San Pedro de Taboada chaymi Sangolquí llaktakuna",
-            "title3": "Antisuyu (Este)",
-            "data3": "Quito Hatun Llakta",
-            "title4": "Kullasuyu (Oeste)",
-            "data4": "Quito Hatun Llakta"
-          }
+          "title1": "KAWPIKUNA",
+          "ubi": "San Rafael llaktami Rumiñahui kantunpa chawpi loma partepi tiyak.",
+          "title2": "PATAKUNA",
+          "limits": [
+            { "title": "Chawpi Loma", "data": "Quito Hatun Llakta (La Armenia)" },
+            { "title": "Uray", "data": "San Pedro de Taboada y Sangolquí llakta" },
+            { "title": "Alli", "data": "Quito Hatun Llakta" },
+            { "title": "Wasi Loma", "data": "Quito Hatun Llakta" }
+          ]
         }
       },
+
       "parish3": {
         "title": "San Pedro de Taboada",
         "data": {
-          "title1": "Kawsay Sitiu (Ubicación)",
-          "ubi": "Kawsan Rumiñahui kantonpi, Valle de los Chillos sutipi, Pichincha markapi, Quitopa uraypi.",
-          "title2": "Saywas (Límites)",
-          "limits": {
-            "title1": "Chinchaysuyu (Norte)",
-            "data1": "Quito Hatun Llakta (Armenia llaktapi)",
-            "title2": "Kuntisuyu (Sur)",
-            "data2": "Mejía Kanton",
-            "title3": "Antisuyu (Este)",
-            "data3": "Quito Hatun Llakta",
-            "title4": "Kullasuyu (Oeste)",
-            "data4": "Quito Hatun Llakta"
-          }
+          "title1": "KAWPIKUNA",
+          "ubi": "Kay llaktami Rumiñahui kantunpi tiyak, Valle de los Chillos, Pichincha suyupi.",
+          "title2": "PATAKUNA",
+          "limits": [
+            { "title": "Chawpi Loma", "data": "Quito Hatun Llakta (La Armenia)" },
+            { "title": "Uray", "data": "Mejía Kantun" },
+            { "title": "Alli", "data": "Quito Hatun Llakta" },
+            { "title": "Wasi Loma", "data": "Quito Hatun Llakta" }
+          ]
         }
       }
     }

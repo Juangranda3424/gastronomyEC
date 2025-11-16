@@ -10,6 +10,8 @@
   },
   "dependencies": {
     "@primeuix/themes": "^1.2.5",
+    "headbreaker": "^3.0.0",
+    "konva": "^10.0.9",
     "primeicons": "^7.0.0",
     "primevue": "^4.4.1",
     "tailwindcss-primeui": "^0.6.1",

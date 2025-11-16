@@ -10,7 +10,7 @@ body{
 .title-sticky{
   position: sticky;
   top: 0;
-  z-index: 1;
+  z-index: 100;
 }
 
 .container-page{
@@ -33,9 +33,12 @@ body{
 }
 
 .font-paragraph {
+  margin-bottom: 1rem;
   width: 100%;
   font-size: 4rem;
   text-align: center !important;
+  font-family: 'Hynings Handwriting V2';
+  color: rgb(61, 61, 61);
 
 }
 
@@ -103,6 +106,14 @@ body{
     margin-bottom: 0rem !important;
   }
 
+  .container-grid{
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)) !important;
+
+  }
+  
+  .container-img-puzzle{
+    margin-top: -5rem !important;
+  }
 
 }
 
@@ -110,7 +121,6 @@ body{
   .p-button-icon {
     font-size: 4rem !important; /* tamaño del ícono */
   }
-  
 }
 
 @font-face {
@@ -121,4 +131,9 @@ body{
 @font-face {
   font-family: 'Pink Chicken';
   src: url(/src/fonts/PinkChicken-Regular.ttf);
+}
+
+@font-face {
+  font-family: 'Hynings Handwriting V2';
+  src: url(/src/fonts/HyningsHandwritingV2-Regular.ttf);
 }

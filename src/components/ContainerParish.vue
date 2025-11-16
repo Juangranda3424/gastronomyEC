@@ -17,7 +17,7 @@
 
 .container-option{
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
     width: 100%;
     gap: 0.5rem;
 }
@@ -25,6 +25,10 @@
 .container-img{
     padding: 3rem;
     margin-bottom: -3rem;
+}
+
+.container-parish-ru{
+    width: 100%;
 }
 
 </style>
