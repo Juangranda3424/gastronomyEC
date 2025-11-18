@@ -2,7 +2,8 @@
     <ContainerPage :title="`${$t('label.label2')} - ${puzzleTitle}`">
         <template #context>
             <JigsawPuzzle
-            :image="img"
+                :image="img"
+                :name="puzzleName"                
             />
         </template>
     </ContainerPage>  

@@ -140,5 +140,51 @@
         }
       }
     }
-  }
+  },
+  "restaurants":{
+      "title1":"Nombre del restaurante",
+      "title2":"Precio",
+      "title3":"Descripción",
+      "locropapa":{
+        "name": "LOCRO DE PAPA",
+        "restaurant":[
+          {
+            "name": "restaurante test 1",
+            "description": "prueba ------- test",
+            "price": 2.50
+          },
+          {
+            "name": "restaurante test 2",
+            "description": "prueba ------- test",
+            "price": 2.50
+          },
+          {
+            "name": "restaurante test 2",
+            "description": "prueba ------- test",
+            "price": 2.50
+          },
+          {
+            "name": "restaurante test 2",
+            "description": "prueba ------- test",
+            "price": 2.50
+          },
+          {
+            "name": "restaurante test 2",
+            "description": "prueba ------- test",
+            "price": 2.50
+          },
+          {
+            "name": "restaurante test 2",
+            "description": "prueba ------- test",
+            "price": 2.50
+          }
+        ]
+
+      },
+      "locropata2":{
+        "name": "locropapa",
+        "description": "prueba ------- test",
+        "price": 2.50
+      }
+    }
 }

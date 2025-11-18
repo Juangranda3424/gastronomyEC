@@ -8,14 +8,20 @@
     </div>
         <div :id="id" class="puzzle-area container-puzzle" ></div>
     </div>
-    <div v-if="solved" style="display: flex; justify-content: center; align-items: center; background-color: gold; border-radius: 2rem; margin-top: 2rem; padding: 2rem;">
+    <div v-if="solved" class="container-verficated">
         <h1 class="font-title">{{ $t('label.label4') }}</h1>
         <i class="pi pi-verified" style="font-size: 10rem; color: purple;"></i>
+    </div>
+    <div v-if="solved" class="container-table">
+      <TableRestaurant
+        :name="props.name"
+      />
     </div>
 </template>
 
 <script setup>
 import headbreaker from "headbreaker";
+import TableRestaurant from "@/components/TableRestaurant.vue";
 import game from "@/assets/chef.png";
 import { onMounted, ref } from "vue";
 
@@ -24,6 +30,7 @@ const solved = ref(false);
 const props = defineProps({
   image: { type: String, required: true },
   id: { type: String, default: "puzzle" },
+  name: { type: String, required: true}
 });
 
 let canvas;
@@ -105,6 +112,7 @@ onMounted(drawPuzzle);
   width: 100%;
   display: block;
   text-align: center;
+  margin-top: -2rem;
 }
 
 .puzzle-area {
@@ -135,6 +143,23 @@ onMounted(drawPuzzle);
     border: solid; 
     border-radius: 1rem; 
     background-color: grey;
+}
+
+.container-verficated{
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  background-color: gold; 
+  border-radius: 2rem; 
+  margin-top: 2rem; 
+  padding: 2rem;
+}
+
+.container-table{
+  display: flex; 
+  align-items: center;
+  width: 100%;
+  margin-top: 3rem;
 }
 
 </style>
