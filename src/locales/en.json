@@ -1,20 +1,24 @@
 {
   "button": {
     "label1": "VIEW LOCATION",
-    "label2": "CLICK HERE"
+    "label2": "TAP HERE"
   },
   "label": {
     "label1": "TRADITIONAL FOODS",
     "label2": "Chef’s Game",
-    "label3": "Put together the puzzle to discover where you can enjoy this delicious traditional dish!",
-    "label4": "Congratulations! You successfully completed the puzzle"
+    "label3": "Solve the puzzle to discover where you can enjoy this delicious traditional dish!",
+    "label4": "Congratulations! You successfully completed the puzzle.",
+    "label5": "MAP INSTRUCTIONS",
+    "label6": "1.- Drag with one finger to move the map.",
+    "label7": "2.- Use the pinch gesture to zoom in or out.",
+    "label8": "3.- Tap a restaurant icon to view its information, and tap an empty area to close the popup."
   },
   "review": {
     "title": "HISTORICAL REVIEW",
-    "paragraph1": "The Rumiñahui canton originally formed part of the Metropolitan District of Quito and was considered a parish.",
+    "paragraph1": "Rumiñahui Canton originally belonged to the Metropolitan District of Quito and was considered a parish.",
     "paragraph2": "However, on May 31, 1938, General Alberto Enríquez Gallo elevated the parish of Sangolquí to the category of an autonomous canton.",
     "paragraph3": "Its name honors the Indigenous hero Rumiñahui, a symbol of courage for all Ecuadorians.",
-    "paragraph4": "A group of citizens formed a civic board that promoted the creation of the Rumiñahui canton. Thanks to their efforts, both men and women of Sangolquí and its surroundings achieved cantonization 87 years ago."
+    "paragraph4": "A group of citizens formed a civic committee that promoted the creation of Rumiñahui Canton. Thanks to their efforts, the people of Sangolquí and surrounding areas achieved cantonization 87 years ago."
   },
 
   "meaning": {
@@ -25,7 +29,7 @@
       "title3": "RUMIÑAHUI",
       "rumi": "Stone",
       "ñahui": "Eye or face",
-      "rumiñahui": "Face of stone, an emblematic figure remembered for his historical deeds."
+      "rumiñahui": "Stone face — an emblematic figure known for his historical deeds."
     },
     "languagetitle": "LANGUAGE",
     "language": "Quechua"
@@ -34,13 +38,13 @@
   "monuments": {
     "title": "MAIN MONUMENTS",
     "monuments1": "THE HUMMINGBIRD",
-    "paragraph1": "Its body displays multicolored tones: green reflects the constant renewal of nature; black represents the earth; yellow, orange, and gold symbolize the energy of the sun; crimson evokes struggle, effort, and blood; and dark blue expresses energy and health.",
-    "monuments2": "THE CORN COB",
-    "paragraph2": "Endara Crown captured in this monument the golden 'food of the gods' through the naïve technique, recalling the fertility of the Valley of Los Chillos.",
+    "paragraph1": "Its body features multicolored tones: green reflects nature’s constant renewal; black represents the earth; yellow, orange, and gold symbolize the energy of the sun; crimson evokes struggle, effort, and blood; and dark blue expresses energy and health.",
+    "monuments2": "THE CORN (CHOCLO)",
+    "paragraph2": "Endara Crown portrayed the golden food of the gods using the naïve technique, highlighting the fertility of the Valle de los Chillos.",
     "monuments3": "THE THIRST MONUMENT",
-    "paragraph3": "The work represents a farmer who, during his rest, looks for water but seems unable to find it, symbolizing effort and need.",
+    "paragraph3": "The sculpture represents a farmer who, during his rest, searches for water but seems unable to find it, reflecting effort and need.",
     "monuments4": "THE TIME MONUMENT",
-    "paragraph4": "A central monolith that functions as a solar clock and pays tribute to ancestral traditions related to agricultural cycles, representing solstices and equinoxes."
+    "paragraph4": "A central monolith that functions as a sundial and pays tribute to ancestral traditions related to agricultural cycles, representing solstices and equinoxes."
   },
 
   "parishes": {
@@ -48,18 +52,17 @@
 
     "rural": {
       "title": "RURAL PARISHES",
-
       "parish1": {
-        "title": "Parish Cotogchoa",
+        "title": "Cotogchoa Parish",
         "data": {
           "title1": "LOCATION",
-          "ubi": "The parish of Cotogchoa is located in the southwestern part of the Rumiñahui canton.",
+          "ubi": "The parish of Cotogchoa is located southwest of Rumiñahui Canton.",
           "title2": "BOUNDARIES",
           "limits": [
-            { "title": "North", "data": "Parish Sangolquí" },
-            { "title": "South", "data": "Parishes Amaguaña and Tambillo, canton Mejía" },
-            { "title": "East", "data": "Parish Rumipamba" },
-            { "title": "West", "data": "Parish Amaguaña" }
+            { "title": "North", "data": "Sangolquí Parish" },
+            { "title": "South", "data": "Amaguaña and Tambillo Parishes of Mejía Canton" },
+            { "title": "East", "data": "Rumipamba Parish" },
+            { "title": "West", "data": "Amaguaña Parish" }
           ],
           "title3": "PRODUCTIVE ACTIVITIES",
           "data3": "Agriculture and livestock; its main products are corn and wheat."
@@ -67,16 +70,16 @@
       },
 
       "parish2": {
-        "title": "Parish Rumipamba",
+        "title": "Rumipamba Parish",
         "data": {
           "title1": "LOCATION",
-          "ubi": "The rural parish of Rumipamba is located in the Rumiñahui canton, Pichincha province, 15 kilometers from the city of Sangolquí.",
+          "ubi": "The rural parish of Rumipamba is located in Rumiñahui Canton, Pichincha Province, 15 kilometers from Sangolquí.",
           "title2": "BOUNDARIES",
           "limits": [
             { "title": "North", "data": "Eni River and Conambo River" },
             { "title": "South", "data": "Jivino Verde River and Jivino Rojo River" },
             { "title": "East", "data": "Jivino Verde River" },
-            { "title": "West", "data": "Pending completion..." }
+            { "title": "West", "data": "To be completed..." }
           ],
           "title3": "PRODUCTIVE ACTIVITIES",
           "data3": "Agriculture and livestock; its main products are onions and carrots."
@@ -89,10 +92,10 @@
 
       "parish1": {
         "title": "Sangolquí",
-        "titlemeals": "Traditional Foods",
+        "titlemeals": "Traditional foods",
         "data": {
           "title1": "LOCATION",
-          "ubi": "It is located in the Rumiñahui canton, Pichincha province, in the Valley of Los Chillos, about 34 km southeast of Quito.",
+          "ubi": "It is located in Rumiñahui Canton, Pichincha Province, in the Valle de los Chillos, about 34 km southeast of Quito.",
           "title2": "BOUNDARIES",
           "limits": [
             { "title": "North", "data": "Metropolitan District of Quito" },
@@ -102,46 +105,116 @@
           ]
         },
         "meals": [
-          { "name": "LOCRO DE PAPA", "description": "Traditional Andean soup prepared with potatoes, cheese, and avocado." },
-          { "name": "YAHUARLOCRO", "description": "Soup made with sheep offal, onion, and spices." },
-          { "name": "ROAST GUINEA PIG", "description": "Guinea pig roasted in oven or charcoal, served with potatoes and salad." },
-          { "name": "FRITADA", "description": "Pork cooked in its own fat, served with mote and toasted corn." },
-          { "name": "HORNADO", "description": "Oven-roasted pork, traditional in festivities and community gatherings." },
-          { "name": "COUNTRY CHICKEN BROTH", "description": "Broth prepared with free-range chicken and vegetables." },
-          { "name": "MOTE WITH PORK CRACKLING", "description": "Mote served with crispy pork crackling." },
-          { "name": "EMPANADAS DE VIENTO", "description": "Fried empanadas filled with cheese, sprinkled with sugar." }
+          { "name": "LOCRO DE PAPA", "description": "Traditional Andean soup made with potatoes, cheese, and avocado." },
+          { "name": "YAHUARLOCRO", "description": "Soup made with sheep offal, onions, and spices." },
+          { "name": "ROASTED CUY", "description": "Guinea pig roasted in the oven or over charcoal, served with potatoes and salad." },
+          { "name": "FRITADA", "description": "Pork cooked in its own fat, served with hominy and toasted corn." },
+          { "name": "HORNADO", "description": "Oven-roasted pork, traditional in celebrations and community gatherings." },
+          { "name": "CRIOLLA CHICKEN BROTH", "description": "Soup prepared with free-range chicken and vegetables." },
+          { "name": "MOTE WITH CHICHARRÓN", "description": "Typical dish of hominy accompanied by crispy pork cracklings." },
+          { "name": "EMPANADAS DE VIENTO", "description": "Fried empanadas filled with cheese and sprinkled with sugar." }
         ]
       },
-
       "parish2": {
         "title": "San Rafael",
         "data": {
           "title1": "LOCATION",
-          "ubi": "It is located in the northernmost part of the Rumiñahui canton, in the Pichincha province.",
+          "ubi": "It is located at the northern end of Rumiñahui Canton, in Pichincha Province.",
           "title2": "BOUNDARIES",
           "limits": [
-            { "title": "North", "data": "Metropolitan District of Quito (La Armenia neighborhood)" },
-            { "title": "South", "data": "Parishes San Pedro de Taboada and Sangolquí" },
+            { "title": "North", "data": "Metropolitan District of Quito (La Armenia Urbanization)" },
+            { "title": "South", "data": "San Pedro de Taboada and Sangolquí Parishes" },
             { "title": "East", "data": "Metropolitan District of Quito" },
             { "title": "West", "data": "Metropolitan District of Quito" }
           ]
         }
       },
-
       "parish3": {
         "title": "San Pedro de Taboada",
         "data": {
           "title1": "LOCATION",
-          "ubi": "It is located in the Rumiñahui canton, in the Valley of Los Chillos, Pichincha province, south of Quito.",
+          "ubi": "Located in Rumiñahui Canton, Valle de los Chillos, Pichincha Province, south of Quito.",
           "title2": "BOUNDARIES",
           "limits": [
-            { "title": "North", "data": "Metropolitan District of Quito (La Armenia neighborhood)" },
+            { "title": "North", "data": "Metropolitan District of Quito (La Armenia Urbanization)" },
             { "title": "South", "data": "Mejía Canton" },
             { "title": "East", "data": "Metropolitan District of Quito" },
             { "title": "West", "data": "Metropolitan District of Quito" }
           ]
         }
       }
+    }
+  },
+
+  "restaurants": {
+    "title1": "Restaurant Name",
+    "title2": "Price",
+    "title3": "Description",
+
+    "locropapa": {
+      "name": "POTATO LOCRO",
+      "restaurant": [
+        {
+          "name": "restaurant test 1",
+          "description": "test ------- sample",
+          "price": 2.50,
+          "direction": "test",
+          "cell": "0999999999",
+          "lat": -0.3165,
+          "lng": -78.4392
+        },
+        {
+          "name": "restaurant test 2",
+          "description": "test ------- sample",
+          "price": 2.50,
+          "direction": "test",
+          "cell": "0999999999",
+          "lat": -0.3121,
+          "lng": -78.4428
+        },
+        {
+          "name": "restaurant test 2",
+          "description": "test ------- sample",
+          "price": 2.50,
+          "direction": "test",
+          "cell": "0999999999",
+          "lat": -0.3208,
+          "lng": -78.4467
+        },
+        {
+          "name": "restaurant test 2",
+          "description": "test ------- sample",
+          "price": 2.50,
+          "direction": "test",
+          "cell": "0999999999",
+          "lat": -0.3190,
+          "lng": -78.4440
+        },
+        {
+          "name": "restaurant test 2",
+          "description": "test ------- sample",
+          "price": 2.50,
+          "direction": "test",
+          "cell": "0999999999",
+          "lat": -0.3144,
+          "lng": -0.3144
+        },
+        {
+          "name": "restaurant test 2",
+          "description": "test ------- sample",
+          "price": 2.50,
+          "direction": "test",
+          "cell": "0999999999",
+          "lat": -0.3265,
+          "lng": -78.4400
+        }
+      ]
+    },
+
+    "locropata2": {
+      "name": "potato locro",
+      "description": "test ------- sample",
+      "price": 2.50
     }
   }
 }

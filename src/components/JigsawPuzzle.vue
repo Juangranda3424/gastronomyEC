@@ -1,19 +1,35 @@
 <template>
   <div class="puzzle-container">
     <div class="container-text">
-          <h1 class="font-paragraph" style="color: white;">{{ $t('label.label3') }}</h1>
+          <p class="font-paragraph" style="color: white;">{{ $t('label.label3') }}</p>
     </div>
     <div class="container-img-puzzle">
-        <img :src="game" width="50%"  height="50%">
+        <img :src="game" class="chef-img">
     </div>
         <div :id="id" class="puzzle-area container-puzzle" ></div>
     </div>
     <div v-if="solved" class="container-verficated">
         <h1 class="font-title">{{ $t('label.label4') }}</h1>
-        <i class="pi pi-verified" style="font-size: 10rem; color: purple;"></i>
+        <i class="pi pi-verified verified"></i>
     </div>
     <div v-if="solved" class="container-table">
       <TableRestaurant
+        :name="props.name"
+      />
+    </div>
+    <div style="text-align: center;">
+          <h1 class="font-paragraph title-instruction">{{ $t('label.label5') }}</h1>
+        <div class="container-instruction">
+          <img :src="ChefIntruction" class="chef-img">
+          <div style="text-align: center;">
+          <p class="font-paragraph">{{ $t('label.label6') }}</p>
+          <p class="font-paragraph" >{{ $t('label.label7') }}</p>
+          <p class="font-paragraph">{{ $t('label.label8') }}</p>
+          </div>
+        </div>
+    </div>
+    <div v-if="solved" class="container-table">
+      <MapRestaurant
         :name="props.name"
       />
     </div>
@@ -21,11 +37,13 @@
 
 <script setup>
 import headbreaker from "headbreaker";
+import ChefIntruction from "@/assets/chefinstruction.png"
 import TableRestaurant from "@/components/TableRestaurant.vue";
+import MapRestaurant from "@/components/MapRestaurant.vue";
 import game from "@/assets/chef.png";
 import { onMounted, ref } from "vue";
 
-const solved = ref(false);
+const solved = ref(true);
 
 const props = defineProps({
   image: { type: String, required: true },
@@ -160,6 +178,25 @@ onMounted(drawPuzzle);
   align-items: center;
   width: 100%;
   margin-top: 3rem;
+}
+
+.container-instruction{
+  display: flex; 
+  justify-content: center; 
+  align-items: center; 
+  border-radius: 1rem; 
+  border: solid 2px; 
+  padding: 0.5rem; 
+}
+
+.title-instruction{
+  background-color: black; 
+  color: white; 
+}
+
+.chef-img{
+  height: 50%;
+  width: 50%;
 }
 
 </style>

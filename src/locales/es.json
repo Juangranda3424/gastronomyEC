@@ -7,7 +7,11 @@
     "label1": "COMIDAS TRADICIONALES",
     "label2": "Juego del Chef",
     "label3": "¡Arma el rompecabezas para descubrir dónde puedes disfrutar de este delicioso plato tradicional!", 
-    "label4": "¡Felicidades! Lograste armar el rompecabezas por completo"
+    "label4": "¡Felicidades! Lograste armar el rompecabezas por completo",
+    "label5": "INSTRUCCIONES DEL MAPA",
+    "label6": "1.- Arrastra con un dedo para moverlo",
+    "label7": "2.- Realiza el gesto de pellizcar para acercar o alejar",
+    "label8": "3.- Toca un ícono de restaurante para ver su información y toca una zona libre para cerrar la ventana."
   },
   "review": {
     "title": "RESEÑA HISTÓRICA",
@@ -151,32 +155,56 @@
           {
             "name": "restaurante test 1",
             "description": "prueba ------- test",
-            "price": 2.50
+            "price": 2.50,
+            "direction": "test",
+            "cell": "0999999999",
+            "lat": -0.3165,
+            "lng": -78.4392
           },
           {
             "name": "restaurante test 2",
             "description": "prueba ------- test",
-            "price": 2.50
+            "price": 2.50,
+            "direction": "test",
+            "cell": "0999999999",
+            "lat": -0.3121,
+            "lng": -78.4428
           },
           {
             "name": "restaurante test 2",
             "description": "prueba ------- test",
-            "price": 2.50
+            "price": 2.50,
+            "direction": "test",
+            "cell": "0999999999",
+            "lat": -0.3208,
+            "lng": -78.4467
           },
           {
             "name": "restaurante test 2",
             "description": "prueba ------- test",
-            "price": 2.50
+            "price": 2.50,
+            "direction": "test",
+            "cell": "0999999999",
+            "lat": -0.3190,
+            "lng": -78.4440
           },
           {
             "name": "restaurante test 2",
             "description": "prueba ------- test",
-            "price": 2.50
+            "price": 2.50,
+            "direction": "test",
+            "cell": "0999999999",
+            "lat": -0.3144,
+            "lng": -0.3144
           },
           {
             "name": "restaurante test 2",
             "description": "prueba ------- test",
-            "price": 2.50
+            "price": 2.50,
+            "direction": "test",
+            "cell": "0999999999",
+            "lat": -0.3265,
+            "lng": -78.4400
           }
         ]
 

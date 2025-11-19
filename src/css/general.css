@@ -10,7 +10,7 @@ body{
 .title-sticky{
   position: sticky;
   top: 0;
-  z-index: 100;
+  z-index: 2000;
 }
 
 .container-page{
@@ -40,6 +40,17 @@ body{
   font-family: 'Hynings Handwriting V2';
   color: rgb(61, 61, 61);
 
+}
+
+#map{
+  height: 1000px;
+  width: 100%;
+
+}
+
+.verified{
+  font-size: 10rem !important;
+  color: blueviolet;
 }
 
 .font-title {
@@ -114,6 +125,16 @@ body{
   .container-img-puzzle{
     margin-top: -5rem !important;
   }
+
+  #map{
+    height: 500px;
+  }
+
+  .verified{
+    font-size: 5rem !important;
+  }
+
+
 
 }
 
