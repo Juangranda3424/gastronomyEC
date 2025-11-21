@@ -3,7 +3,7 @@
         <template #context>
             <ContainerParish>
                 <template #context>
-                    <Frame :frame="frameImg" class="img-right"/>
+                    <RuminahuiMap/>
                 </template>
                 <template #option>
                     <div>
@@ -20,11 +20,10 @@
 
 <script setup>
 
+import RuminahuiMap from '@/components/RuminahuiMap.vue';
 import ContainerPage from '@/components/ContainerPage.vue';
 import ContainerParish from '@/components/ContainerParish.vue';
-import frameImg from '@/assets/frame.png';
 import ButtonOption from '@/components/ButtonOption.vue';
-import Frame from '@/components/Frame.vue';
 import router from '@/router/router';
 
 

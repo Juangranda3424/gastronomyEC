@@ -1,6 +1,6 @@
 <template>
     <div>
-        <img :src="frame" alt="Frame Image"/>
+        <img class="img-frame" :src="frame" alt="Frame Image"/>
     </div>
 </template>
 
@@ -17,9 +17,10 @@ defineProps({
 
 <style scoped>
 
-img{
-    width: 96%;
+.img-frame{
+    width: 100%;
     height: auto;
+    border-radius: 5rem;
 }
 
 

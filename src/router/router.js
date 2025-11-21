@@ -1,17 +1,25 @@
 import { createRouter, createWebHistory } from 'vue-router'
 import Home from '@/pages/Home.vue'
+import Welcome from '@/pages/Welcome.vue';
 const routes = [
     {
         path: '/:pathMatch(.*)*',
         name: 'notfound',
-        redirect: "/home"
+        redirect: "/welcome"
 
     },
     {
       path: "/",
-      redirect: "/home" // Redirige la ruta raíz a /home
+      redirect: "/welcome" // Redirige la ruta raíz a /home
     },
-    {path: '/home', name: 'home',
+    {
+        path: '/welcome', 
+        name: 'welcome',
+        component: Welcome,
+    },    
+    {
+        path: '/home', 
+        name: 'home',
         component: Home,
     },
     {

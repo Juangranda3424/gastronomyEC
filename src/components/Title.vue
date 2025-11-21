@@ -1,13 +1,13 @@
 <template>
     <div class="title-container">
-        <div class="title-container-button">
-            <Button @click="goBack" icon="pi pi-arrow-left" severity="danger" style="width: 60%"/>
+        <div class="title-container-button" style="margin-bottom: 4rem;">
+            <Button @click="goBack" severity="danger" style="width: 100%">
+                <img :src="ButtonBack" alt="Back" class="img-buttonback"/>
+                <p class="font-button">{{ $t('button.label3') }}</p>
+            </Button>
         </div>
-        <div class="title-container-text">
-            <h1>{{ title }}</h1>
-        </div>
         <div class="title-container-button">
-            <Button @click="goHome" icon="pi pi-home" severity="danger" style="width: 60%"/>
+            <Footer :footer="FooterImg"/>
         </div>
     </div>
 </template>
@@ -15,7 +15,9 @@
 <script setup>
 
 import  Button from 'primevue/button';
-import router from '@/router/router';
+import Footer from '@/components/Footer.vue';
+import FooterImg from '@/assets/footerwhite.svg';
+import ButtonBack from '@/assets/buttonback.svg';
 
 defineProps({
     title: {
@@ -28,20 +30,16 @@ const goBack = () => {
   window.history.back();
 }
 
-const goHome = () => {
-    router.push('/home');
-}
-
-
 </script>
 
 <style scoped>
 
 .title-container-button {
-    width: 20%;
+    width: 100%;
     display: flex; 
     justify-content: center; 
     align-items: center;
+    margin-bottom: 3rem;
 }
 
 .title-container-text{
@@ -58,11 +56,9 @@ const goHome = () => {
 }
 
 .title-container{
-    display: flex;
+    display: block;
     width: 100%;
     align-items: center;
-    background-color: black;
-
 }
 
 .title-container h1{
@@ -81,7 +77,18 @@ const goHome = () => {
 :deep(.p-button){
     font-size: 2rem;
     padding: 2px;
+}
 
+.img-buttonback{
+    width: 30%;
+}
+
+.font-button{
+    font-size:3rem;
+    color: #180063;
+    position: absolute;
+    left: 39%;
+    font-weight: 500;
 }
 
 </style>

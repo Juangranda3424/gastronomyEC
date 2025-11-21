@@ -43,55 +43,6 @@ defineProps({
   text-align: justify;
 }
 
-/* Animaciones */
-@keyframes fadeInUp {
-  0% {
-    opacity: 0;
-    transform: translateY(80px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateY(0);
-  }
-}
 
-.animate-frame {
-  animation: slideInLeft 1.5s ease;
-}
-
-.animate-text {
-  animation: slideInRight 1.5s ease;
-}
-
-/* Para invertir animación cuando es reverse */
-.reverse .animate-frame {
-  animation: slideInRight 1.5s ease;
-}
-
-.reverse .animate-text {
-  animation: slideInLeft 1.5s ease;
-}
-
-@keyframes slideInLeft {
-  0% {
-    opacity: 0;
-    transform: translateX(-100px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
-
-@keyframes slideInRight {
-  0% {
-    opacity: 0;
-    transform: translateX(100px);
-  }
-  100% {
-    opacity: 1;
-    transform: translateX(0);
-  }
-}
 
 </style>

@@ -1,16 +1,16 @@
 <template>
-    <div class="container-page">
-        <div class="container-tc">
-            <div class="title-sticky">                    
-                <Title :title="title"/>
-            </div>
-            <div class="page-context">
-                <slot name="context">
-                </slot>
-            </div>
-        </div>
+  <div class="container-page" :style="{ background: bg }">
+    <div class="container-tc">
+      <div class="page-context">
+        <slot name="context"></slot>
+      </div>
+      <div class="title-sticky">                    
+        <Title :title="title"/>
+      </div>
     </div>
+  </div>
 </template>
+
 
 <script setup>
 
@@ -20,7 +20,11 @@ defineProps({
     title:{
         type: String,
         required: true
-    }
+    },
+    bg: {
+    type: String,
+    default: null
+  }
 
 })
 
@@ -42,5 +46,6 @@ defineProps({
     padding: 2rem;
 
 }
+
 
 </style>

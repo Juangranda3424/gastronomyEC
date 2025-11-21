@@ -13,13 +13,18 @@
 </template>
 
 <script setup>
-import frameImg from '@/assets/frame.png';
+import sangolqui1 from '@/images/parishes/Sangolqui/sangolqui1.png';
+import sangolqui2 from '@/images/parishes/Sangolqui/sangolqui2.png';
+import sangolqui3 from '@/images/parishes/Sangolqui/sangolqui3.png';
+import sangolqui4 from '@/images/parishes/Sangolqui/sangolqui4.png';
 import ContainerParishUR from '@/components/ContainerParishUR.vue';
 import { goRouter } from '@/helpers/utils';
 
 const imgs = [
-    frameImg,
-    frameImg,
+    sangolqui1,
+    sangolqui2,
+    sangolqui3,
+    sangolqui4
 ]
 
 

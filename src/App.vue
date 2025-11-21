@@ -1,14 +1,10 @@
   <template>
     <div class="app-container">
       <router-view />
-      <FooterComponent :footer="Footer"/>
     </div>
   </template>
 
   <script setup>
-
-  import Footer from '@/assets/footer.png';
-  import FooterComponent from '@/components/Footer.vue';
 
   </script>
 
@@ -16,9 +12,9 @@
 
   .app-container{
       display: flex;
-      flex-direction: column;
+      flex-wrap: wrap;
       min-height: 100vh;
-      justify-content: center;
+      align-content: space-evenly;
   }
 
   </style>

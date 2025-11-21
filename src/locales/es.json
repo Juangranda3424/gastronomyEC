@@ -1,20 +1,28 @@
-{  
+{ 
+  "title":{
+    "label1": "Descubre la magia",
+    "label2": "de",
+    "label3": "RUMIÑAUI"
+  }, 
   "button":{
     "label1": "VER UBICACIÓN",
-    "label2": "PULSA AQUI"
+    "label2": "PULSA AQUI",
+    "label3": "VOLVER",
+    "label4": "Empezar"
   },
   "label": {
-    "label1": "COMIDAS TRADICIONALES",
+    "label1": "Comidas TRADICIONALES",
     "label2": "Juego del Chef",
     "label3": "¡Arma el rompecabezas para descubrir dónde puedes disfrutar de este delicioso plato tradicional!", 
     "label4": "¡Felicidades! Lograste armar el rompecabezas por completo",
     "label5": "INSTRUCCIONES DEL MAPA",
     "label6": "1.- Arrastra con un dedo para moverlo",
     "label7": "2.- Realiza el gesto de pellizcar para acercar o alejar",
-    "label8": "3.- Toca un ícono de restaurante para ver su información y toca una zona libre para cerrar la ventana."
+    "label8": "3.- Toca un ícono de restaurante para ver su información y toca una zona libre para cerrar la ventana.",
+    "label9": "Saber más"
   },
   "review": {
-    "title": "RESEÑA HISTÓRICA",
+    "title": "Reseña HISTÓRICA",
     "paragraph1": "El cantón Rumiñahui originalmente formaba parte del Distrito Metropolitano de Quito, siendo considerado una parroquia.",
     "paragraph2": "Sin embargo, el 31 de mayo de 1938, el general Alberto Enríquez Gallo elevó a la parroquia de Sangolquí a la categoría de cantón autónomo.",
     "paragraph3": "Su nombre honra al héroe indígena Rumiñahui, símbolo de coraje para todos los ecuatorianos.",
@@ -22,21 +30,26 @@
   },
 
   "meaning": {
-    "title": "SIGNIFICADO DE RUMIÑAHUI",
-    "elements": {
-      "title1": "RUMI",
-      "title2": "ÑAHUI",
-      "title3": "RUMIÑAHUI",
-      "rumi": "Piedra",
-      "ñahui": "Ojo o cara",
-      "rumiñahui": "Cara de piedra, una figura emblemática por sus hechos históricos."
+    "title": "Significado de RUMIÑAHUI",
+    "parttitle": {
+      "title1": "Significado de",
+      "title2": "RUMIÑAHUI"
     },
-    "languagetitle": "LENGUAJE",
-    "language": "Quechua"
+    "partsubtitle":{
+      "title1":"Donde la",
+      "title2":"historia",
+      "title3":"mira de",
+      "title4":"frente"
+    },
+    "description": "En quechua, Rumi significa piedra y Ñahui ojo o cara; juntos forman Rumiñahui, interpretado como Cara de Piedra, una figura emblemá ca cuyo legado histórico sigue siendo símbolo de fuerza y cultura.",
+    "elements": {
+      "rumi": "PIEDRA",
+      "ñahui": "CARA"
+    }
   },
 
   "monuments": {
-    "title": "PRINCIPALES MONUMENTOS",
+    "title": "Principales MONUMENTOS",
     "monuments1": "EL COLIBRÍ",
     "paragraph1": "Viste su cuerpo con tonos multicolores: el verde refleja la renovación constante de la naturaleza; el negro representa la tierra; el amarillo, anaranjado y dorado simbolizan la energía del sol; el grana evoca lucha, esfuerzo y sangre; y el azul oscuro expresa energía y salud.",
     "monuments2": "EL CHOCLO",
@@ -48,7 +61,7 @@
   },
 
   "parishes": {
-    "title": "PARROQUIAS DEL CANTÓN RUMIÑAHUI",
+    "title": "Parroquias del CANTÓN",
 
     "rural": {
       "title": "PARROQUIAS RURALES",

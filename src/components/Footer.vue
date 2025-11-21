@@ -22,11 +22,10 @@ defineProps({
     justify-content: center;
     align-items: center;
     width: 100%;
-    background-color: black;
 }
 
 .footer img {
-    width: 80%;
+    width: 30%;
     height: auto;
 }
 

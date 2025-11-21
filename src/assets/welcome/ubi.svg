@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Capa_2" data-name="Capa 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 553 134.21">
+  <defs>
+    <style>
+      .cls-1 {
+        letter-spacing: .21em;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #fff;
+        stroke-miterlimit: 10;
+      }
+
+      .cls-3 {
+        fill: #fff;
+        font-family: MonaSans-ExtraLight, 'Mona Sans';
+        font-size: 34.17px;
+        font-variation-settings: 'wdth' 100, 'wght' 200;
+        font-weight: 200;
+      }
+
+      .cls-4 {
+        letter-spacing: .21em;
+      }
+
+      .cls-5 {
+        letter-spacing: .17em;
+      }
+
+      .cls-6 {
+        letter-spacing: .2em;
+      }
+
+      .cls-7 {
+        letter-spacing: .2em;
+      }
+    </style>
+  </defs>
+  <g id="OBJECTS">
+    <g>
+      <path class="cls-2" d="m94.46,16.75C83.72,6.02,69.67.65,55.61.65S27.47,6.02,16.76,16.75c-21.45,21.45-21.45,56.23,0,77.68l38.85,38.85,38.85-38.85c10.71-10.71,16.08-24.77,16.08-38.83s-5.37-28.12-16.08-38.85Zm-38.85,64.27c-14.06,0-25.44-11.39-25.44-25.44s11.39-25.44,25.44-25.44,25.44,11.39,25.44,25.44-11.39,25.44-25.44,25.44Z"/>
+      <path class="cls-2" d="m94.57,16.62c-21.49-21.49-56.45-21.49-77.92,0C6.23,27.04.5,40.87.5,55.58s5.73,28.56,16.15,38.96l38.96,38.96,38.96-38.96c10.4-10.4,16.15-24.23,16.15-38.96s-5.75-28.54-16.15-38.96Zm-38.96,116.41l-38.71-38.71C6.54,83.96.84,70.22.84,55.58S6.54,27.22,16.89,16.86C27.56,6.2,41.57.85,55.61.85s28.05,5.34,38.71,16.01c10.35,10.35,16.03,24.1,16.03,38.71s-5.68,28.38-16.03,38.74l-38.71,38.71Z"/>
+    </g>
+    <text class="cls-3" transform="translate(130.26 67)"><tspan class="cls-6" x="0" y="0">Rumi</tspan><tspan class="cls-1" x="110.6" y="0">ñ</tspan><tspan class="cls-6" x="137.52" y="0">aui, </tspan><tspan class="cls-7" x="0" y="41">Pichi</tspan><tspan class="cls-4" x="109.3" y="41">n</tspan><tspan class="cls-7" x="136.32" y="41">c</tspan><tspan class="cls-1" x="162.05" y="41">h</tspan><tspan class="cls-6" x="188.97" y="41">a, </tspan><tspan class="cls-5" x="243.98" y="41">E</tspan><tspan class="cls-6" x="270.8" y="41">cuador</tspan></text>
+  </g>
+</svg>

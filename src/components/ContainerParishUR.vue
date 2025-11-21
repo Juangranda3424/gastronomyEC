@@ -25,6 +25,8 @@
                     <template #frame>
                         <div>
                             <Frame :frame="img[1]" class="img-right" />
+                            <Frame :frame="img[2]" class="img-left" />
+                            <Frame :frame="img[3]" class="img-right" />
                         </div>
                     </template>
                     <template #text>
@@ -46,7 +48,7 @@
                 <DivContainer v-if="props.titleactivities != null">
                     <template #frame>
                         <div>
-                            <Frame :frame="img[2]" class="img-left" />
+                            <Frame :frame="img[4]" class="img-left" />
                         </div>
                     </template>
                     <template #text>

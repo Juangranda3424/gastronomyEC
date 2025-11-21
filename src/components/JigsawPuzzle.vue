@@ -17,7 +17,7 @@
         :name="props.name"
       />
     </div>
-    <div style="text-align: center;">
+    <div v-if="solved" style="text-align: center;">
           <h1 class="font-paragraph title-instruction">{{ $t('label.label5') }}</h1>
         <div class="container-instruction">
           <img :src="ChefIntruction" class="chef-img">
@@ -43,7 +43,7 @@ import MapRestaurant from "@/components/MapRestaurant.vue";
 import game from "@/assets/chef.png";
 import { onMounted, ref } from "vue";
 
-const solved = ref(true);
+const solved = ref(false);
 
 const props = defineProps({
   image: { type: String, required: true },
